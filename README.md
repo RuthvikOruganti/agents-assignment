@@ -39,21 +39,25 @@ Echo is a sophisticated, real-time voice agent built using the **LiveKit Agents 
 Install dependencies:
 
 pip install livekit-agents livekit-plugins-deepgram livekit-plugins-elevenlabs livekit-plugins-silero livekit-plugins-google python-dotenv
+
+
 Configure Environment Variables: Create a .env file in the project root:
 
-Plaintext
-LIVEKIT_URL=wss://your-project.livekit.cloud
-LIVEKIT_API_KEY=your_livekit_key
-LIVEKIT_API_SECRET=your_livekit_secret
-DEEPGRAM_API_KEY=your_deepgram_key
-ELEVEN_API_KEY=your_eleven_key
-GOOGLE_API_KEY=your_gemini_key
+-LIVEKIT_URL=wss://your-project.livekit.cloud
+-LIVEKIT_API_KEY=your_livekit_key
+-LIVEKIT_API_SECRET=your_livekit_secret
+-DEEPGRAM_API_KEY=your_deepgram_key
+-ELEVEN_API_KEY=your_eleven_key
+-GOOGLE_API_KEY=your_gemini_key
+
 Initialize Models:
 
-Bash
-python multi_model.py download-files
+->python multi_model.py download-files
+
 🏃 Running the Project
+
 Start the agent worker with:
 
-python multi_model.py dev
+->python multi_model.py dev
+
 Join the session via the LiveKit Agents Sandbox to begin the experience.
