@@ -43,12 +43,17 @@ pip install livekit-agents livekit-plugins-deepgram livekit-plugins-elevenlabs l
 
 Configure Environment Variables: Create a .env file in the project root:
 
--LIVEKIT_URL=wss://your-project.livekit.cloud
--LIVEKIT_API_KEY=your_livekit_key
--LIVEKIT_API_SECRET=your_livekit_secret
--DEEPGRAM_API_KEY=your_deepgram_key
--ELEVEN_API_KEY=your_eleven_key
--GOOGLE_API_KEY=your_gemini_key
+->LIVEKIT_URL=wss://your-project.livekit.cloud
+
+->LIVEKIT_API_KEY=your_livekit_key
+
+->LIVEKIT_API_SECRET=your_livekit_secret
+
+->DEEPGRAM_API_KEY=your_deepgram_key
+
+->ELEVEN_API_KEY=your_eleven_key
+
+->GOOGLE_API_KEY=your_gemini_key
 
 Initialize Models:
 
